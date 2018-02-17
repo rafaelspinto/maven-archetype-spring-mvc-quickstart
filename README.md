@@ -25,29 +25,30 @@ A Maven archetype for a simple Spring MVC web application using the following co
 
 To start working on your new project, you will need to:
 
-* Install this archetype in your local maven repo:
+Install this archetype in your local maven repo:
 
-    ```
-    git clone https://github.com/rafaelspinto/maven-archetype-spring-mvc-quickstart
-    cd maven-archetype-spring-mvc-quickstart
-    mvn clean install
-    ```
+```
+git clone https://github.com/rafaelspinto/maven-archetype-spring-mvc-quickstart
+cd maven-archetype-spring-mvc-quickstart
+mvn clean install
+```
 
-* Generate your project based on the installed archetype:
+Generate your project based on the installed archetype:
 
-    ```
-    mvn archetype:generate \
-            -DarchetypeGroupId=com.rafaelspinto \
-            -DarchetypeArtifactId=maven-archetype-spring-mvc-quickstart \
-            -DarchetypeVersion=5.0.0 \
-            -DgroupId=<GROUP_ID> \
-            -DartifactId=<ARTIFACT_ID> \
-            -Dversion="1.0-SNAPSHOT" \
-            -DinteractiveMode=false \
-            -DarchetypeRepository=https://github.com/rafaelspinto/maven-archetype-spring-mvc-quickstart
-    ```
-    
-    Replace GROUP_ID and ARTIFACT_ID with your own.
+```
+mvn archetype:generate \
+        -DarchetypeGroupId=com.rafaelspinto \
+        -DarchetypeArtifactId=maven-archetype-spring-mvc-quickstart \
+        -DarchetypeVersion=5.0.0 \
+        -DgroupId=<GROUP_ID> \
+        -DartifactId=<ARTIFACT_ID> \
+        -Dversion="1.0-SNAPSHOT" \
+        -DinteractiveMode=false \
+        -DarchetypeRepository=https://github.com/rafaelspinto/maven-archetype-spring-mvc-quickstart
+```
+
+**Note:**
+Replace GROUP_ID and ARTIFACT_ID with your own.
     
 ## Testing a Project
 
