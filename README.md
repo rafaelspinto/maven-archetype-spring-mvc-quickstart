@@ -27,7 +27,7 @@ To start working on your new project, you will need to:
 
 Install this archetype in your local maven repo:
 
-```
+```shell
 git clone https://github.com/rafaelspinto/maven-archetype-spring-mvc-quickstart
 cd maven-archetype-spring-mvc-quickstart
 mvn clean install
@@ -35,7 +35,7 @@ mvn clean install
 
 Generate your project based on the installed archetype:
 
-```
+```shell
 mvn archetype:generate \
         -DarchetypeGroupId=com.rafaelspinto \
         -DarchetypeArtifactId=maven-archetype-spring-mvc-quickstart \
@@ -54,7 +54,7 @@ Replace GROUP_ID and ARTIFACT_ID with your own.
 
 If you don't want to be deploying your war file everytime you make a change, simply run the following command on the root of the project:
 
-```
+```shell
 mvn test tomcat7:run
 ```
 
